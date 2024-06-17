@@ -1,3 +1,45 @@
-#nacho{
+.logo{
+    min-width: 30px;
+    
+}
+.header{
     color:rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-items > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-items > ul >li {
+  margin-right: 20px;
+}
+.res-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+.res-card{
+    border-radius: 12px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+.res-logo{
+    height: 320px;
+    max-width: 280px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.filter-btn{
+    min-width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
